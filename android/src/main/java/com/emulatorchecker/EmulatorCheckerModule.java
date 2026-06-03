@@ -7,7 +7,7 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.module.annotations.ReactModule;
-import com.reveny.emulator.detection.EmulatorDetection;
+import com.reveny.emulatordetector.plugin.EmulatorDetection;
 
 @ReactModule(name = EmulatorCheckerModule.NAME)
 public class EmulatorCheckerModule extends ReactContextBaseJavaModule {
